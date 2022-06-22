@@ -1,0 +1,17 @@
+{
+  "include": [
+    //어디를 변환? 
+    "src"
+  ],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    //변환 js버전
+    "lib": ["ES6", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+
+    //타입스크립트를 어디서 작동시킬건가?
+  }
+}
